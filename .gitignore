@@ -1,0 +1,10 @@
+build/*
+
+# ===== IDE =====
+.vscode/
+.clangd
+compile_commands.json
+
+# ===== Python =====
+__pycache__/
+*.py
