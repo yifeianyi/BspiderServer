@@ -1,13 +1,15 @@
 idf_component_register(
     SRCS
         "app_main.c"
+        "app/app_runtime.cpp"
         "services/wifi/wifi.c"
         "services/http/http_client.c"
 
     INCLUDE_DIRS
+        "app"
         "services/wifi"
         "services/http"
-        "common"
+        "hal"
 
     REQUIRES
         esp_wifi

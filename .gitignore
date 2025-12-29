@@ -10,4 +10,8 @@ __pycache__/
 *.py
 
 # Wi-Fi private config
-main/common/wifi_config.h
+main/hal/wifi_config.h
+
+# ======= AI Tools =======
+IFLOW.md
+AGENTS.md
